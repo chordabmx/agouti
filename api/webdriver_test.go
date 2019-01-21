@@ -9,8 +9,8 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	. "github.com/sclevine/agouti/api"
-	"github.com/sclevine/agouti/api/internal/mocks"
+	. "github.com/chordabmx/agouti/api"
+	"github.com/chordabmx/agouti/api/internal/mocks"
 )
 
 type roundTripperFunc func(*http.Request) (*http.Response, error)

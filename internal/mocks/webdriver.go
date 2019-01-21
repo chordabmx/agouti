@@ -1,6 +1,6 @@
 package mocks
 
-import "github.com/sclevine/agouti/api"
+import "github.com/chordabmx/agouti/api"
 
 type WebDriver struct {
 	OpenCall struct {
