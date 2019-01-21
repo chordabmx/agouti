@@ -189,7 +189,7 @@ func (s *selectable) FindForAppium(selectorType string, text string) *Selection 
 }
 
 func (s *selectable) FindByAccessibilityID(id string) *Selection {
-	return newSelection(s.session, s.selectors.Append(target.A11yID, text).At(0))
+	return newSelection(s.session, s.selectors.Append(target.A11yID, id).At(0))
 }
 
 func (s *selectable) Selectors() Selectors {
